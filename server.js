@@ -11,7 +11,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 // async 路由包装器：把 Promise rejection 转给错误中间件
 const asyncHandler = (fn) => (req, res, next) => Promise.resolve(fn(req, res, next)).catch(next);
 
-app.get('/api/v10/users/', (req, res) => {
+app.get('/api/docs/users/', (req, res) => {
   res.json({ ok: true, framework: 'express', flavor: 'listen', service: '留言板', message: '服务运行中' });
 });
 
