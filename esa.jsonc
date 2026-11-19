@@ -2,7 +2,7 @@
   "name": "vite-react-template",
   "installCommand": "npm install",
   "entry": "/index.js",
-"edgeFunctionFirst": ["/\test","/2122","/test/111","/test/222","/test/333","/test/444","/test/555","/test/666","/test/777","/test/888","/test/999","/test/1010","/test/1111","/test/1212","/test/1313","/test/1414","/test/1515","/test/1616","/test/1717","/test/1818"],
+"edgeFunctionFirst": ["/\test","/11","/2122","/test/111","/test/222","/test/333","/test/444","/test/555","/test/666","/test/777","/test/888","/test/999","/test/1010","/test/1111","/test/1212","/test/1313","/test/1414","/test/1515","/test/1616","/test/1717","/test/1818"],
 "regionFunction": {
     // 函数规格，基础版固定为 1c2g
     "instanceType": "2c4g",
